@@ -13,7 +13,7 @@ const Dashboard = () => {
 
             <div className="dashboard-content">
                 <Metrics data={data} style={style} setStyle={setStyle}/>
-                <Charts/>                
+                <Charts style={style} setStyle={setStyle}/>                
             </div>
         </div>
     )

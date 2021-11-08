@@ -28,6 +28,9 @@ h2 {
   padding-top: 0.7%;
   text-align: center;
 }
+h3 {
+  color: rgb(1, 28, 66);
+}
 .container {
   margin-left: 12%;
 }
