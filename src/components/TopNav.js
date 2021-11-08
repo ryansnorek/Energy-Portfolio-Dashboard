@@ -18,6 +18,7 @@ const TopNav = props => {
                 <button className={selection === "residential" ? style : ""} value="residential" onClick={handleTopSelection}>Residential</button>
                 <div className="dropdown">
                     <form>
+                     <input className="search" placeholder="search"></input>
                         <div className="portfolios">
                             {selection === "residential" ? <p>Tranches</p> : <p>Portfolios</p>}
                             <select onChange={handlePortfolioSelect}>
@@ -33,7 +34,6 @@ const TopNav = props => {
                                 {data.sites[sitesData].map(site => <option>{site}</option>)}
                             </select>
                         </div>
-                        <input className="search" placeholder="search"></input>
                     </form>
                 </div>
             </div>
