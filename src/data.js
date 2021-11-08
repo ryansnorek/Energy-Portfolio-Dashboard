@@ -12,7 +12,7 @@ export const data = {
 
     },
     performance: {
-        daily: {
+        day: {
             estimated: 78,
             predicted: 89,
             energy: 41325,
@@ -20,7 +20,7 @@ export const data = {
             oil: 8090,
             carbon: 493050
         },
-        monthly: {
+        month: {
             estimated: 80,
             predicted: 95,
             energy: 5063063,
@@ -28,7 +28,7 @@ export const data = {
             oil: 103290,
             carbon: 904050
         },
-        quarterly: {
+        quarter: {
             estimated: 60,
             predicted: 99,
             energy: 9348294,
@@ -36,7 +36,7 @@ export const data = {
             oil: 4234080,
             carbon: 2349009
         },
-        annually: {
+        year: {
             estimated: 78,
             predicted: 89,
             energy: 84092380,

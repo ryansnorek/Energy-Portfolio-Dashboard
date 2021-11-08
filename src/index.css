@@ -60,6 +60,10 @@ form {
   margin: 0;
   width: 30%;
 }
+.charts-container {
+  display: flex;
+  flex-direction: column;
+}
 .charts-container img {
   width: 600px;
   margin: 0;
