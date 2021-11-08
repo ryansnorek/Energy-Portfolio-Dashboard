@@ -1,6 +1,6 @@
 export const data = {
     portfolios: ["PGE", "PNM"],
-    tranches: ["Main", "Buckingham", "Duece", "Kihei", "YellowBrick"],
+    tranches: ["Buckingham", "Main", "Duece", "Kihei", "YellowBrick"],
     sites: {
         PGE: ["Mt. Hope", "Dunn Rd.", "River Valley", "St. Louis", "Thomas Creek", "Tickle Creek", "Volcano", "Williams Acres"],
         PNM: ["Alamogordo", "Albuquerque", "Britton SEC", "New Mexico", "Cibola County", "Columbus Electric Coop", "Deming", "Encino"],
