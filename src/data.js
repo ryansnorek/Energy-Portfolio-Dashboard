@@ -6,7 +6,7 @@ export const data = {
         PNM: ["Alamogordo", "Albuquerque", "Britton SEC", "New Mexico", "Cibola County", "Columbus Electric Coop", "Deming", "Encino"],
         Main: ["Main st.", "Bloominferg", "OompaLoompa", "Cherrywood"],
         Buckingham: ["Squirtle", "Bulbasaur", "Charmander", "Weedle"],
-        Duece: ["Duece Ally", "Rim Shot", "Waverly Williams Rd", "Clooberton", "WillyWanker"],
+        Duece: ["Duece Ally", "Rim Shot", "Waverly Williams Rd", "Clooberton", "WillyWanker", "Bigalow"],
         Kihei: ["Kaapalai", "mooOkai", "Lahaiina", "Pleasnaton"],
         YellowBrick: ["Oz"]
 
