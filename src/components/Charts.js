@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 const Charts = props => {
     const { style, setStyle } = props;
-    const [selection, setSelection] = useState("chart")
+    const [selection, setSelection] = useState("chart");
+    
     const handleClick = e => {
         setSelection(e.target.value);
         setStyle("button-selected");

@@ -12,8 +12,6 @@ const TopNav = props => {
     const handlePortfolioSelect = e => {
         setSitesData(e.target.value);
     };
-
-    console.log(selection)
     return (
         <div className="nav">
                 <button className={selection === "commerical" ? style : ""} value="commerical" onClick={handleTopSelection}>Commercial</button>
@@ -23,7 +21,9 @@ const TopNav = props => {
                         <div className="portfolios">
                             {selection === "residential" ? <p>Tranches</p> : <p>Portfolios</p>}
                             <select onChange={handlePortfolioSelect}>
-                                {data.portfolios.map(site => <option>{site}</option>)}
+                                {selection === "residential" ? 
+                                data.tranches.map(site => <option>{site}</option>)
+                                : data.portfolios.map(site => <option>{site}</option>)}
                             </select>
                         </div>
                         <div className="sites">
