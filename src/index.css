@@ -32,7 +32,7 @@ h3 {
   color: rgb(1, 28, 66);
 }
 .container {
-  margin-left: 12%;
+  margin-left: 15%;
 }
 form {
   margin: 0;
@@ -44,13 +44,22 @@ form {
 }
 .dropdown select {
   font-size: 1rem;
-  width: 100%;
+  margin-left: 2%;
+  width: 180px
+}
+.dropdown p {
+  text-align: left;
+  margin: 0;
 }
 .portfolios, .sites {
   display: flex;
+  align-items: center;
+}
+.sites p {
+  margin-right: 12%;
 }
 .search {
-  width: 100%;
+  width: 243px;
 }
 .section {
   margin: 3% 0;
